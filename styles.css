@@ -1,0 +1,58 @@
+/*
+COLOR PALETTE
+    Beige       #D9B58B
+    Pink        #D99A8B
+    Light Blue  #8BD9D9
+    Blue Gray   #3B5959
+    Brown       #594B3B
+*/
+/*GLOBAL STYLES
+--------------------------------*/
+body {
+    background: #D9B58B;
+}
+.home .content-wrapper{
+    background: rgb (255 255 255 / 0.9)
+}
+/*Links
+--------------------------------*/
+a{
+    color: #594B3B;
+}
+a:hover {
+    color: #D9B58B;
+    text-decoration: none;
+}
+footer a{
+    color: #8BD9D9;
+}
+footer a:hover {
+    color: #D9B58B;
+    text-decoration: none;
+}
+.btn {
+    background: #3B5959;
+    text-decoration: none;
+    color: #8BD9D9;
+}
+/*HOME
+--------------------------------*/
+.home {
+    Background: url(../images/annie-spratt-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+/*Projects
+--------------------------------*/
+
+/*Work Experience
+--------------------------------*/
+
+/*Education
+--------------------------------*/
+
+/*FOOTER
+--------------------------------*/
+footer {
+    background: #3B5959;
+    color: #D9B58B;
+}
