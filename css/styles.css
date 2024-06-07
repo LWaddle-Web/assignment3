@@ -1,0 +1,187 @@
+/* COLOR PALETTE
+    Beige       #D9B58B
+    Pink        #D99A8B
+    Light Blue  #8BD9D9
+    Blue Gray   #3B5959
+    Brown       #594B3B
+*/
+/*GLOBAL STYLES
+--------------------------------*/
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* set default to 10px */
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+html, body {
+    height: 100%;
+}
+body {
+    background: #8BD9D9;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+h1, h3 {
+    font-family: "Vidaloka", serif;
+    font-weight: 400;
+    margin: 0;
+}
+h2, h4 {
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    margin: 0;
+}
+h1 {
+    font-size: 7rem;
+    line-height: 1.4;
+}
+h2 {
+    font-size: 3.6rem;
+}
+h3 {
+    font-size: 2.4rem;
+}
+h4 {
+    font-size: 2.4rem;
+}
+/*Links
+--------------------------------*/
+a{
+    color: #594B3B;
+}
+a:hover {
+    color: #D9B58B;
+    text-decoration: none;
+}
+footer a{
+    color: #8BD9D9;
+}
+footer a:hover {
+    color: #D9B58B;
+    text-decoration: none;
+}
+.btn {
+    background: #3B5959;
+    text-decoration: none;
+    color: #8BD9D9;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 7px;
+    letter-spacing: .05em;
+    line-height: 1;
+    border-radius: 4px; /* Rounded Button */
+}
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+/*HOME
+--------------------------------*/
+.home {
+    display: flex;
+    flex-direction: column;
+}
+.home .content-wrapper {
+    /* background: rgb(255 255 255 / 0.9); */
+    flex: 1 0 auto;
+}
+header::before {
+    background: url(../images/annie-spratt-unsplash.jpg) center;
+    background-size: cover;
+    content:"";
+    display: block;
+    height: 375px;
+}
+/*Resume
+--------------------------------*/
+.resume-section {
+    margin-bottom: 50px;
+}
+.resume-section h2 {
+    border-bottom: 2px solid #3B5959;
+}
+.download-link {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    font-size: 1.5rem;
+}
+/*Projects
+--------------------------------*/
+.project-item {
+    display: flow-root;
+    margin: 30px 0;
+}
+.project-item img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+/*Work Experience
+--------------------------------*/
+.work-item {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 20px;
+    margin: 30px 0;
+}
+.work-details p {
+    margin: 0;
+}
+.work-summary p:first-child {
+    margin-top: 0;
+}
+.bold {
+    font-weight: bold;
+}
+
+/*Education
+--------------------------------*/
+.education-item {
+    margin: 30px 0;
+}
+.education-item p {
+    margin: 0;
+}
+.italic {
+    font-style: italic;
+}
+/*FOOTER
+--------------------------------*/
+footer {
+    background: #3B5959;
+    color: #D9B58B;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+.socials li{
+    display: inline-block;
+    margin-left: 5px;
+}
+.socials img {
+    width: 32px;
+}
+.socials img:hover {
+    opacity: 0.5;
+}
+.ending {
+    font-size: 4rem;
+}
+.web-links {
+    display: grid;
+    grid-template-rows: 50px 25px 25px 25px;
+    text-align: left;
+}
